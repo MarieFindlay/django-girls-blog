@@ -4,7 +4,16 @@
 </title>
 
 <body>
-    <p>Hi there!</p>
+    <div>
+        <h3>Django Girls Blog</h3>
+    </div>
+    {% for post in posts %}
+    <div>
+        <h4>{{ post.title }}</h4>
+        <p>{{ post.text }}</p>
+        <p>published: {{ post.published_date }}</p>
+    </div>
+    {% endfor %}
 </body>
 
 </html>
