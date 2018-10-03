@@ -19,9 +19,11 @@
                     Django Girls Blog
                 </a>
             </h3>
+            {% if user.is_authenticated %}
             <a href="{% url 'post_new' %}">
                 <span class="glyphicon glyphicon-plus"></span>
             </a>
+            {% endif %}
         </div>
         <div class="posts_container">
             <div class="row">
