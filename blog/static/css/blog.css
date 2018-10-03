@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Roboto";
+}
+
+.header_container {
+  background-color: #ff9400;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+h3 {
+  font-family: "Lobster";
+  color: whitesmoke;
+  font-size: 60px;
+}
+
+h4 {
+  font-family: "Lobster";
+  color: darkslategray;
+  font-size: 25px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.posts_container {
+  padding: 10px 0px 10px 0px;
+}
+
+.post_container {
+  padding: 10px 10px 0px 20px;
+}
+
+form,
+button,
+select,
+input,
+textarea {
+  font-family: inherit;
+  width: 500px;
+  margin: 0;
+}
